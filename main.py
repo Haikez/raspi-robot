@@ -25,4 +25,4 @@ if __name__ == "__main__":
     controller = TwoWheelController()
     test_controller(controller)
 
-    socketio.run(app, debug=True, host="192.168.31.183")
+    socketio.run(app, debug=True, host="0.0.0.0")
